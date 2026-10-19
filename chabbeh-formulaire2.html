@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="chabbeh-formilaire.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="destination.html" method="POST">
+        <h1>Mon premier formulaire HTML5</h1>
+        <fieldset id="main">
+            <legend>Vos données personnelles</legend>
+            <label for="">Nom<input type="text" placeholder="Votre nom"></label><br>
+            <label for="">Prénom<input type="text" placeholder="Votre prénom"></label><br>
+            <label for="">Date de naissence<input type="date"></label><br>
+            <fieldset>
+                <legend>Lieu de naissence</legend>
+                <input type="radio" name="kk">Seine-Saint-Denis <input type="radio" name="kk">Reste de monde
+            </fieldset>
+            adresse postal <textarea name="" id="" rows="3" placeholder="Votre adresse"></textarea><br>
+            <label for="">Code Postal<input type="number" placeholder="93000"></label><br>
+            <label for="">Adresse electronique<input type="email" placeholder="Votre adresse electronique"></label><br>
+            <label for="">Page Personelle<input type="text" placeholder="Votre page web"></label><br>
+            <label for="">Télephone portable<input type="number" placeholder="Votre 0601234567"></label><br>
+            semestre
+            <select name="" id="">
+                <option value="">S1</option>
+                <option value="" selected>S2</option>
+                <option value="">S3</option>
+                <option value="">S4</option>
+            </select><br>
+            <label for="">Niveau en HTML<input type="range" min="0" max="10" step="1"></label>
+            <fieldset id="fld">
+                <legend>Connaissances</legend>
+                <input type="checkbox" checked>HTML<input type="checkbox">CSS<input type="checkbox">formulares<input type="checkbox">JavaScript
+            </fieldset>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+        </fieldset>
+        <hr><p>Formulaire realisée dans la cadre du TP2</p><hr>
+    </form>
+</body>
+
+</html>
